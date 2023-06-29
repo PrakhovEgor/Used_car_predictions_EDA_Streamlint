@@ -48,7 +48,7 @@ def process_side_bar_inputs():
 
 
 def sidebar_input_features():
-    name = st.text_input("Name")
+    name = st.sidebar.text_input("Name")
     year = st.sidebar.slider("Year of manufacture", min_value=1950, max_value=2023, value=2015,
                             step=1)
     km_driven = st.sidebar.slider("km driven", min_value=0, max_value=1000000, value=50000,
@@ -59,7 +59,7 @@ def sidebar_input_features():
     owner = st.sidebar.selectbox("Owner", ("First", "Second", "Third", "Fourth & Above" "Test Drive car"))
     mileage = st.sidebar.slider("Mileage, kmpl", min_value=0, max_value=50, value=18,
                             step=1)
-    engine = st.sidebar.slider("Engine, CC", min_value=500, max_value=40000, value=1000,
+    engine = st.sidebar.slider("Engine, CC", min_value=500, max_value=3600, value=1000,
                             step=1)
     max_power = st.sidebar.slider("Max power, bhp", min_value=0, max_value=14, value=7,
                             step=1)
