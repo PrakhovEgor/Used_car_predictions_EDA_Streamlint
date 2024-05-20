@@ -1,4 +1,4 @@
-# Used car predictions + EDA - https://shorturl.at/jlmST
+# Used car predictions + EDA 
 Итак, передо мной была задача на основе готового датасета провести его анализ и построить предсказывающую модель. Так же нужно было разместить готовое решение на платформе **_Streamlint_**.
 
 1. В качестве готового [датасета](https://raw.githubusercontent.com/evgpat/edu_stepik_from_idea_to_mvp/main/datasets/cars.csv) были выбраны данные о ценах подержанных автомобилей с различными характеристиками.
